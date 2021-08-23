@@ -11,33 +11,33 @@ body{
     outline: none!important;
 }
 .bg-black{
-    background: #000;
+    background: rgb(245, 177, 230);
 }
 /*=========Slider======*/
 .carousel-item{
     height: 600px;
 }
 .carousel-image-1{
-    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.4)),
-    url(logo.jpg);
+    background: linear-gradient(rgb(230, 200, 200), rgba(255, 175, 228, 0.89)),
+    url('./images/logo.jpg');
     background-size:cover;
 }
 .carousel-image-2{
-    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.4)),
-    url(slide1.jpg);
+    background: linear-gradient(rgba(255, 216, 216, 0.3), rgba(255, 139, 139, 0.4)),
+    url('./images/slide1.jpg');
     background-size:cover;
 }
 .carousel-image-3{
-    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.4)),
-    url(slider2.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0,0,0,.4)),
+    url('./images/slide2.jpg');
     background-size:cover; 
 }
 .title-color{
-    color: #fff;
+    color: rgb(99, 97, 97);
 }
 .btn-color {
-    background:#000;
-    color: #fff;
+    background:rgb(0, 0, 0);
+    color: rgb(210, 239, 250);
 }
 .btn-color:hover{
     color:#fff
@@ -66,7 +66,7 @@ body{
     display: inline-block;
     vertical-align:middle;
     transform: perspective(1px) translateY(0);
-    box-shadow: 0 0 1px rgba(0,0,0,0);
+    box-shadow: 0 0 1px rgba(146, 136, 136, 0);
 }
 .slide-btn:hover,
 .slide-btn:focus,
@@ -88,10 +88,10 @@ body{
 /*==End of service Section==*/
 /*=====Product Section=====*/
 #products{
-    background: #000;
+    background: rgb(247, 146, 225);
 }
 .product-title{
-   color: #fff; 
+   color: rgb(255, 255, 255); 
 }
 .single-item{
     display: inline-block;
@@ -151,7 +151,7 @@ body{
 /*=====End of Product Section=====*/
 /*=====About Section======*/
 #about-sec{
-    margin-top: 25pc;
+    margin-top: 1pc;
 }
 .text-color{
     color: #000;
