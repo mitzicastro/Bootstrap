@@ -23,24 +23,24 @@ body{
     background-size:cover;
 }
 .carousel-image-2{
-    background: linear-gradient(rgba(255, 216, 216, 0.3), rgba(255, 139, 139, 0.4)),
+    background: linear-gradient(rgba(240, 233, 233, 0.3), rgba(255, 139, 139, 0.4)),
     url('./images/slide1.jpg');
     background-size:cover;
 }
 .carousel-image-3{
-    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0,0,0,.4)),
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(36, 35, 35, 0.4)),
     url('./images/slide2.jpg');
     background-size:cover; 
 }
 .title-color{
-    color: rgb(99, 97, 97);
+    color: rgb(155, 131, 153);
 }
 .btn-color {
-    background:rgb(0, 0, 0);
-    color: rgb(210, 239, 250);
+    background:rgb(188, 163, 209);
+    color: rgb(161, 230, 255);
 }
 .btn-color:hover{
-    color:#fff
+    color:rgb(189, 118, 255)
 }
 @keyframes slide-btn{
     16%{
@@ -66,7 +66,7 @@ body{
     display: inline-block;
     vertical-align:middle;
     transform: perspective(1px) translateY(0);
-    box-shadow: 0 0 1px rgba(146, 136, 136, 0);
+    box-shadow: 0 0 1px rgba(114, 112, 112, 0);
 }
 .slide-btn:hover,
 .slide-btn:focus,
@@ -154,7 +154,7 @@ body{
     margin-top: 1pc;
 }
 .text-color{
-    color: #000;
+    color: rgb(66, 65, 65);
 }
 .watch-img{
     margin-top: 35px;
